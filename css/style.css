@@ -1,0 +1,41 @@
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+header img {
+	padding-top: 75px;
+  padding-bottom: 75px;
+	display: block;
+	margin: auto;
+}
+
+
+section {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+
+}
+
+section p {
+  float: right;
+  font-family: "Montserrat";
+  color: #a7a9ab;
+  margin: 0 auto;
+  width: 300px;
+}
+
+element.style {
+  visibility: visible;
+}
+
+.plate {
+  z-index: -1;
+  position: absolute;
+}
+
+.bread {
+  z-index: 0;
+}
