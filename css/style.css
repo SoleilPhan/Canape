@@ -31,6 +31,10 @@ element.style {
   visibility: visible;
 }
 
+.dishes {
+  padding-top: 100px;
+}
+
 .plate {
   z-index: -1;
   position: absolute;
@@ -38,4 +42,21 @@ element.style {
 
 .bread {
   z-index: 0;
+   position: absolute;
+
+}
+
+.spread {
+  z-index: 1;
+  position: absolute;
+}
+
+.salmon {
+  z-index: 2;
+   position: absolute;
+}
+
+.dill {
+  z-index: 3;
+   position: absolute;
 }
