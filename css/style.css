@@ -1,25 +1,42 @@
+body {
+  margin: 0 auto;
+}
+
 #wrapper {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
 
-header img {
-	padding-top: 75px;
+header {
+  padding-top: 75px;
   padding-bottom: 75px;
-	display: block;
-	margin: auto;
+  text-align: center;
+  margin: 0 auto;
+  font-family: permanent marker;
+  font-size: 48px;
+  color:#edba18;
+}
+
+a:link {
+  color:#edba18;
+}
+
+a:hover {
+  color:#edba18;
+  opacity: 0.8;
 }
 
 
 section {
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 
 }
 
 section p {
+  vertical-align: middle;
   float: right;
   font-family: "Montserrat";
   color: #a7a9ab;
@@ -41,22 +58,26 @@ element.style {
 }
 
 .bread {
+  padding-top: 50px;
   z-index: 0;
-   position: absolute;
+  position: absolute;
 
 }
 
 .spread {
+  padding-top: 50px;
   z-index: 1;
   position: absolute;
 }
 
 .salmon {
+  padding-top: 50px;
   z-index: 2;
-   position: absolute;
+  position: absolute;
 }
 
 .dill {
+  padding-top: 50px;
   z-index: 3;
-   position: absolute;
+  position: absolute;
 }
