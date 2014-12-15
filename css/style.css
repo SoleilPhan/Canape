@@ -72,6 +72,7 @@ section p {
   color: #a7a9ab;
   margin: 0 auto;
   width: 300px;
+  line-height: 1.5;
 }
 
 element.style {
@@ -114,9 +115,18 @@ element.style {
   position: absolute;
 }
 
+.title {
+  font-family: "Lato";
+  color: #edba18;
+  font-weight: 700;
+  font-size: 14px;
+  float: right;
+  width: 49%;
+}
+
 .maintext {
   width: 49%;
-  float: right;
+  float: left;
 }
 
 .maintext p {
