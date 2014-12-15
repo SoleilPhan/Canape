@@ -71,8 +71,8 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(-57deg)translateY(0px) translateX(-250px);
-            transform: rotate(-57deg)translateY(0px) translateX(-250px);
+    -webkit-transform: rotate(-57deg)translateY(0px) translateX(-230px)scale(0.7);
+            transform: rotate(-57deg)translateY(0px) translateX(-230px)scale(0.7);
     opacity: 1;
   }
 }
@@ -87,8 +87,8 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin:  left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(-57deg) translateY(0px)translateX(-250px);
-            transform: rotate(-57deg) translateY(0px)translateX(-250px);
+    -webkit-transform: rotate(-57deg) translateY(0px)translateX(-230px)scale(0.7);
+            transform: rotate(-57deg) translateY(0px)translateX(-230px)scale(0.7);
     opacity: 1;
   }
 }
@@ -111,8 +111,8 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(30deg)translateY(-350px)translateX(210px);
-            transform: rotate(30deg)translateY(-350px)translateX(210px);
+    -webkit-transform: rotate(30deg)translateY(-200px)translateX(150px)scale(0.7);
+            transform: rotate(30deg)translateY(-200px)translateX(150px)scale(0.7);
     opacity: 1;
   }
 }
@@ -127,8 +127,8 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin:  left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(30deg) translateY(-350px)translateX(210px);
-            transform: rotate(30deg) translateY(-350px)translateX(210px);
+    -webkit-transform: rotate(30deg) translateY(-200px)translateX(150px)scale(0.7);
+            transform: rotate(30deg) translateY(-200px)translateX(150px)scale(0.7);
     opacity: 1;
   }
 }
@@ -149,8 +149,9 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(30deg)translateY(-200px)translateX(310px);
-            transform: rotate(30deg)translateY(-200px)translateX(310px);
+    -webkit-transform: rotate(30deg)translateY(-90px)translateX(230px)scale(0.7);
+            transform: rotate(30deg)translateY(-90px)translateX(230px)scale(0.7);
+
     opacity: 1;
   }
 }
@@ -165,8 +166,8 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin:  left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(30deg) translateY(-200px)translateX(310px);
-            transform: rotate(30deg) translateY(-200px)translateX(310px);
+    -webkit-transform: rotate(30deg) translateY(-90px)translateX(230px)scale(0.7);
+            transform: rotate(30deg) translateY(-90px)translateX(230px)scale(0.7);
     opacity: 1;
   }
 }
@@ -188,8 +189,8 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(30deg)translateY(-100px)translateX(400px);
-            transform: rotate(30deg)translateY(-100px)translateX(400px);
+    -webkit-transform: rotate(30deg)translateY(-10px)translateX(290px)scale(0.7);
+            transform: rotate(30deg)translateY(-10px)translateX(290px)scale(0.7);
     opacity: 1;
   }
 }
@@ -204,8 +205,35 @@ Copyright (c) 2014 Daniel Eden
   100% {
     -webkit-transform-origin:  left bottom;
             transform-origin: left bottom;
-    -webkit-transform: rotate(30deg) translateY(-100px)translateX(400px);
-            transform: rotate(30deg) translateY(-100px)translateX(400px);
+    -webkit-transform: rotate(30deg) translateY(-10px)translateX(290px)scale(0.7);
+            transform: rotate(30deg) translateY(-10px)translateX(290px)scale(0.7);
     opacity: 1;
   }
+}
+
+.maintext {
+  float: right;
+  -webkit-animation-name: ease-in;
+          animation-name: ease-in;
+ 
+
+@keyframes ease-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ease-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}        
 }
