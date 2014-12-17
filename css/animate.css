@@ -65,7 +65,6 @@ Copyright (c) 2014 Daniel Eden
   0% {
     -webkit-transform-origin: left bottom;
             transform-origin: left bottom;
-    opacity: 1;
   }
 
   100% {
@@ -73,7 +72,6 @@ Copyright (c) 2014 Daniel Eden
             transform-origin: left bottom;
     -webkit-transform: rotate(-57deg)translateY(0px) translateX(-230px)scale(0.7);
             transform: rotate(-57deg)translateY(0px) translateX(-230px)scale(0.7);
-    opacity: 1;
   }
 }
 
@@ -81,7 +79,6 @@ Copyright (c) 2014 Daniel Eden
   0% {
     -webkit-transform-origin:  left bottom;
             transform-origin: left bottom;
-    opacity: 1;
   }
 
   100% {
@@ -89,7 +86,6 @@ Copyright (c) 2014 Daniel Eden
             transform-origin: left bottom;
     -webkit-transform: rotate(-57deg) translateY(0px)translateX(-230px)scale(0.7);
             transform: rotate(-57deg) translateY(0px)translateX(-230px)scale(0.7);
-    opacity: 1;
   }
 }
 
