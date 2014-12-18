@@ -68,7 +68,7 @@ nav ul li {
 
 
 a:link {
-  color: #a7a9ab;;
+  color: #a7a9ab;
   text-decoration: none;
 }
 
@@ -157,6 +157,12 @@ element.style {
   letter-spacing: 1px;
   font-size: 13px;
   text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+hr {
+  border: 1px solid #edba18;
+  width: 20px;
 }
 
 .maintext {
